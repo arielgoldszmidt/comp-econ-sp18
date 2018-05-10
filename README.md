@@ -8,9 +8,9 @@ ECON 21410: Computational Methods in Economics
 * **Class:** Tuesdays and Thursdays, 3:30 - 4:50 PM in SHFE 103
 * **TA Session:** Mondays 7:30-8:30 PM in SHFE 103
 * **Lecturer:** Jeremy Bejarano, jbejarano@uchicago.edu
-* **Office Hours:** Time TBD, in the graduate commons (SHFE 201)
+* **Office Hours:** by appointment
 * **Teaching Assistant:** Philip Xinyu Cao, xinyucao@uchicago.edu
-* **TA Office Hours:** TBD
+* **TA Office Hours:** Mondays, 1:45-2:45, in the graduate commons (SHFE 201)
 * **Website:** Canvas will be used for grades. Homeworks and notes will be posted on the course GitHub repo: https://github.com/jmbejara/comp-econ-sp18
 
 # Notes
@@ -20,6 +20,7 @@ There should be about 19 classes and 9 TA sessions (first Monday excluded). This
 
 * We will have one midterm. It will take place on Monday, April 30 during the regularly scheduled TA session, 7:30-8:30 PM in SHFE 103.
 * Read the lectures ahead of time. The lectures (from, e.g., QuantEcon or the Python Data Science Handbook) have hyperlinks to the appropriate text.
+* Solutions to the homework will be posted in a separate GitHub repo, found here: https://github.com/econ-21410-sp18/comp-econ-hw-jbejarano1 
 
 **Books Used**
 
@@ -44,7 +45,7 @@ There should be about 19 classes and 9 TA sessions (first Monday excluded). This
     * [QuantEcon: "About Python](https://lectures.quantecon.org/py/about_py.html)"
         * Include demos. These should include interactive plots, widgets, LaTeX
     * Python Basics Pretest (in class assessment)
-        * If you pass, you can skip the "Python Basics" part of Assignment 0. I will be holding a few hours of lectures on Saturday to go over “A Whirlwind Tour of Python.” I will help students with the assignment.
+        * I will be holding a few hours of lectures on Saturday to go over “A Whirlwind Tour of Python.” I will help students with the assignment.
     * *Distribute Assignment 0*
         * [You can find HW 0 here.](./HW/hw-00/readme.md)
 * **Class 2: Thursday, March 29**
@@ -78,3 +79,42 @@ There should be about 19 classes and 9 TA sessions (first Monday excluded). This
     * *Distribute Assignment 2*
         * Pandas Basics
 
+## Data Wrangling with Python
+
+* **Class 5: [Tuesday, April 10](./lectures/4-10_Pandas_Intro)**
+    * Introduction to Pandas
+* **Class 6: [Thursday, April 12](./lectures/4-12_Pandas_Intro_Continued)**
+    * Quandl
+    * Introduction to Pandas, continued
+    * In-Class Exercise (occupations notebook)
+    * [PDSH: "Handling Missing Data"](https://jakevdp.github.io/PythonDataScienceHandbook/03.04-missing-values.html)  (read on your own)
+* **Class 6a: [Monday, April 16](./lectures/4-16_TA_Session)**
+    * Go over any questions from HW 2
+    * [PDSH: "Hierarchical Indexing"](https://jakevdp.github.io/PythonDataScienceHandbook/03.05-hierarchical-indexing.html)
+    * **Due Assignment 2**
+    * *Distribute Assignment 3*
+        * Data Munging with Pandas
+* **Class 7: [Tuesday, April 17](./lectures/4-17_Combining_Datasets)**
+    * [PDSH: "Combining Datasets: Concat and Append"](https://jakevdp.github.io/PythonDataScienceHandbook/03.06-concat-and-append.html)
+    * [PDSH: "Combining Datasets: Merge and Join"](https://jakevdp.github.io/PythonDataScienceHandbook/03.07-merge-and-join.html)
+    * [PDA: "Data Loading, Storage, and File Formats"](http://nbviewer.jupyter.org/github/pydata/pydata-book/blob/2nd-edition/ch06.ipynb) 
+    * [QuantEcon: Writing Good Code](https://lectures.quantecon.org/py/writing_good_code.html) (Read on your own)
+* **Class 8: [Thursday, April 19](./lectures/4-19_Aggregation_and_Grouping)**
+    * [PDSH: "Aggregation and Grouping"](https://jakevdp.github.io/PythonDataScienceHandbook/03.08-aggregation-and-grouping.html)
+    * [PDSH: "Pivot Tables"](https://jakevdp.github.io/PythonDataScienceHandbook/03.09-pivot-tables.html)
+    * [PDSH: "High-Performance Pandas: eval() and query()"](https://jakevdp.github.io/PythonDataScienceHandbook/03.12-performance-eval-and-query.html)
+* **Class 8a: [Monday, April 23](./lectures/4-23_TA_Session)**
+    * [PDSH: "Vectorized String Operations"](https://jakevdp.github.io/PythonDataScienceHandbook/03.10-working-with-strings.html)
+    * **Due Assignment 3**
+    * *Distribute Assignment 4*
+        * Summarizing and Visualizing Data
+* **Class 9: [Tuesday, April 24](./lectures/4-24_Time_Series)**
+    * [PDSH: "Working with Time Series"](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)
+    * [PDSH: "Further Resources"](https://jakevdp.github.io/PythonDataScienceHandbook/03.13-further-resources.html) (Read on your own.)
+* **Class 10: [Thursday, April 26](./lectures/4-26_Visualization)**
+    * Data visualization with Python
+* **Class 10a: Monday, April 30**
+    * **Midterm**
+    * In-Class midterm, starts at 7:30. You will need to bring your laptop with you to complete the midterm. The midterm will be similar to the HW assignments.signments.
+
+## Econometrics with Python (and R)
